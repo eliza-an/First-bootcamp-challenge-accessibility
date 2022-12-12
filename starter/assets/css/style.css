@@ -59,7 +59,7 @@ figure {
     background-position: center;
 }
 
-.search-engine-optimization-image {
+.image-of-notebook-with-search-engine-optimization-benefits {
     float: left;
     margin-right: 25px;
 }
@@ -92,32 +92,37 @@ main {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefits p {
+font-size: 20px
+}
+.benefit-for-lead-generation {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
+.benefit-for-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-cost {
+.benefit-for-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+.benefit-for-lead-generation h2 {
     margin-bottom: 10px;
     text-align: center;
+    color: white;
 }
 
-.benefit-brand h3 {
+.benefit-for-brand h2 {
     margin-bottom: 10px;
     text-align: center;
+    color: white;
 }
 
-.benefit-cost h3 {
+.benefit-for-cost h2 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -146,8 +151,10 @@ main {
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
+    color: #ffffff; 
+     
 }
+
 
 .online-reputation-management {
     margin-bottom: 20px;
@@ -156,8 +163,12 @@ main {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    
 }
 
+.overview p {
+    font-size: 23px;
+}
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -182,6 +193,7 @@ main {
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    color: white;
 }
 
 .online-reputation-management h2 {
@@ -195,12 +207,8 @@ main {
 }
 
 footer {
-    padding: 30px;
+    padding: 20px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+
 }
 
-footer h2 {
-    font-size: 20px;
-}
