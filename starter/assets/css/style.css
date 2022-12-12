@@ -1,12 +1,18 @@
-* {
+* 
+
+/*overview formatting*/ 
+{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*background color*/
 body {
     background-color: #d9dcd6;
 }
+
+/*header ie top bar which has the navigation bar and Horiseon title */
 
 header {
     padding: 20px;
@@ -14,6 +20,8 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
+
+/*Horiseon title formatting*/
 
 header h1 {
     display: inline-block;
@@ -24,6 +32,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/*navigation bar formatting*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,6 +59,10 @@ p {
     font-size: 16px;
 }
 
+
+/* large image of marketing meeting formatting*/
+
+
 figure {
     height: 800px;
     width: 100%;
@@ -59,27 +72,20 @@ figure {
     background-position: center;
 }
 
-.image-of-notebook-with-search-engine-optimization-benefits {
-    float: left;
-    margin-right: 25px;
-}
 
-.a-graph-of-reputation-increasing {
-    float: right;
-    margin-left: 25px;
-}
 
-.image-of-social-media-icons {
-    float: left;
-    margin-right: 25px;
-}
 
+
+
+/*main section - layout*/
 
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* formatting for the main section with text */ 
 
 .benefits {
     margin-right: 20px;
@@ -90,60 +96,28 @@ main {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    padding-bottom: 60px;
 }
+
+/* formatting for all the paragraphs in the main section*/ 
 
 .benefits p {
 font-size: 20px
 }
-.benefit-for-lead-generation {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
-.benefit-for-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+/*Search Engine Optimization*/
 
-.benefit-for-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+/*formatting for search engine optimization - heading*/
 
-.benefit-for-lead-generation h2 {
-    margin-bottom: 10px;
-    text-align: center;
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
     color: white;
+    padding-right: 120px;
+    
 }
 
-.benefit-for-brand h2 {
-    margin-bottom: 10px;
-    text-align: center;
-    color: white;
-}
-
-.benefit-for-cost h2 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-for-lead-generation img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-for-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-for-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+/*formatting for search engine optimisation - layout  */
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -152,9 +126,33 @@ font-size: 20px
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff; 
+     padding-right: 116px;
+     padding-bottom: 300px;
      
 }
 
+/* formatting for search engine optimization - image */
+
+.search-engine-optimization img {
+    float: left;
+    margin-right: 25px;
+    max-height: 230px;
+}
+
+
+/*Online Reputation Management */
+
+
+/* formatting for online reputation management -heading */
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    padding-right: 450px
+}
+
+
+/*formatting for online reputation management - layout */
 
 .online-reputation-management {
     margin-bottom: 20px;
@@ -163,12 +161,38 @@ font-size: 20px
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-    
+    padding-bottom: 300px;
+  
 }
 
-.overview p {
-    font-size: 23px;
+/*formatting for online reputation management -paragraph and padding */
+
+.online-reputation-management p {
+    padding-right: 400px;
 }
+
+
+/* for online reputation management - image  */
+
+.online-reputation-management img {
+    float: right;
+    margin-left: 25px;
+    max-height: 230px;
+}
+
+
+
+/*Social media marketing*/
+
+/*formatting for social media marketing - heading */
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+
+}
+
+/* formatting for social media marketing- layout*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -176,38 +200,116 @@ font-size: 20px
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    padding-right: 116px;
+    padding-bottom: 300px;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
+/* formatting for social media marketing - image */
 
 .social-media-marketing img {
-    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+    max-height: 230px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+
+    
+
+/*Aside*/
+
+
+/*all paragraphs formatting within aside*/ 
+
+.overview p {
+    font-size: 20px;
+}
+
+
+/*Lead generation*/
+
+/* formatting for lead generation section - heading */
+
+.benefit-for-lead-generation h2 {
+    margin-bottom: 10px;
+    text-align: center;
     color: white;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+/* formatting for lead generation section - text */
+.benefit-for-lead-generation {
+    margin-bottom: 35px;
+    color: #ffffff;
+}
+/* formatting for lead generation section - image */
+.benefit-for-lead-generation img {
+    display: block;
+    margin: 10px auto;
+    width: 170px;
+    height: 170px;
+  
 }
 
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+
+
+/*Brand Awareness*/
+
+/* formatting for brand awareness section - heading */
+.benefit-for-brand h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
 }
+
+/* formatting for brand awareness section - text */
+
+.benefit-for-brand {
+    margin-bottom: 35px;
+    color: #ffffff;
+}
+
+
+/* formatting for brand awareness section - image */
+
+.benefit-for-brand img {
+    display: block;
+    margin: 10px auto;
+    width: 170px;
+    height: 170px;
+}
+
+
+/*Cost Management*/ 
+
+/* formatting for cost management section - heading */
+.benefit-for-cost h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* formatting for cost management section - text */
+.benefit-for-cost {
+    margin-bottom: 35px;
+    color: #ffffff;
+}
+
+
+/* formatting for cost management section - image */
+
+.benefit-for-cost img {
+    display: block;
+    margin: 10px auto;
+    width: 170px;
+    height: 170px;
+}
+
+
+
+
+
+/*footer*/ 
 
 footer {
-    padding: 20px;
+    padding: 10px;
     clear: both;
 
 }
