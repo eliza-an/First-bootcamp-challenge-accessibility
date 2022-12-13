@@ -31,7 +31,7 @@ This website was intended to be tested for accessibility. All of the images have
 
 Although the starter code for this project was edited by myself, I would like to give credit to Calum Medlock and Henry Green for their helpful discussions, which inspired me to dig deeper and discover more edits to be made!
 I would further like to give credit to my bootcamp class, all of whom contributed with helpful suggestions and explanations of concepts. 
-The starter-code was provided by Trillogy Skills Bootcamp. 
+The starter-code and assessment crieteria was provided by Trillogy Skills Bootcamp. 
 
 ## License
 
